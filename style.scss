@@ -57,6 +57,7 @@ img {
   }
 
   &__media {
+   
 
     &.center {
       margin: 0 auto;
@@ -67,6 +68,7 @@ img {
     }
 
     img {
+      border-radius: 6px;
       @media (max-width: 48em) {
         width: 100%;
       }
@@ -82,24 +84,30 @@ img {
   }  
 
   &__eyebrow {
-    font-size: .9em;
-    letter-spacing: 1px;
-    text-transform: capitalize;
+    font-size: 1.125rem;
+    line-height: 1.33333;
+    letter-spacing: -0.01667em;
+    font-weight: 600;
+    color: #353B3E;
+    margin-bottom: 1rem;
   }
   
   &__header{
-     font-weight: 300;
      font-size: 1.5em;
-     margin-bottom: 0 ;
+     margin-bottom: 0.5em;
   }
 
   &__subheader {
     font-size: 1.2em;
+    font-weight: 600;
     text-transform: capitalize;
   }
 
   &__description {
-    margin: 1em 0;
+    margin: 1em 0 2em 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #0A0A0A
   }
 
   &__btn__container {

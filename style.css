@@ -59,6 +59,9 @@ img {
 .card__media.right {
   margin-left: auto;
 }
+.card__media img {
+  border-radius: 6px;
+}
 @media (max-width: 48em) {
   .card__media img {
     width: 100%;
@@ -71,21 +74,27 @@ img {
   padding: 0;
 }
 .card__eyebrow {
-  font-size: 0.9em;
-  letter-spacing: 1px;
-  text-transform: capitalize;
+  font-size: 1.125rem;
+  line-height: 1.33333;
+  letter-spacing: -0.01667em;
+  font-weight: 600;
+  color: #353B3E;
+  margin-bottom: 1rem;
 }
 .card__header {
-  font-weight: 300;
   font-size: 1.5em;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 .card__subheader {
   font-size: 1.2em;
+  font-weight: 600;
   text-transform: capitalize;
 }
 .card__description {
-  margin: 1em 0;
+  margin: 1em 0 2em 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #0A0A0A;
 }
 .card__btn__container {
   margin-top: 1em;
