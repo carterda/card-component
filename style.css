@@ -60,7 +60,7 @@ img {
   margin-left: auto;
 }
 .card__media img {
-  border-radius: 6px;
+  border-radius: 8px;
 }
 @media (max-width: 48em) {
   .card__media img {
