@@ -52,6 +52,13 @@ img {
     padding: 60px;
   }
 
+  &.with-bg-color {
+    background: #0000c9;
+  }
+  &.with-bg-image {
+    background: url('https://cdn.pfizer.com/pfizercom/styles/original_image/s3/2022-07/Oncology_1.jpg.webp?') center/cover no-repeat;
+   }
+  
   &.landscape {
     flex-direction: row;
   }

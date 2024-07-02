@@ -50,6 +50,12 @@ img {
 .card.no-padding {
   padding: 60px;
 }
+.card.with-bg-color {
+  background: #0000c9;
+}
+.card.with-bg-image {
+  background: url("https://cdn.pfizer.com/pfizercom/styles/original_image/s3/2022-07/Oncology_1.jpg.webp?") center/cover no-repeat;
+}
 .card.landscape {
   flex-direction: row;
 }
